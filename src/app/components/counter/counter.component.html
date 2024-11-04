@@ -1,0 +1,10 @@
+<button (click)="store.increment()">Increment</button>
+
+<div>Current Count: {{ store.count() }}</div>
+<div>Double Count: {{ store.doubleCount() }}</div>
+
+<button (click)="store.decrement()">Decrement</button>
+
+<button (click)="store.reset()">Reset Counter</button>
+
+<button (click)="store.update(20)">Update to 20</button>
